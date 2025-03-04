@@ -37,10 +37,10 @@ const experience = [
                 </li>
             </ul>
         ),
-        badge: 'Software Engineer/Jan 2024 - Present'
+        badge: 'Jr.Software Engineer/Jan 2024 - Present'
     },
     {
-        title: 'Bosnia and Herzegovina Futures Foundation',
+        title: 'Cloudyflex-Zoho',
         description: (
             <ul className="list-disc">
                 <li>
