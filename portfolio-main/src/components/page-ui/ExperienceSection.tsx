@@ -27,7 +27,7 @@ export function ExperienceSection() {
 
 const experience = [
     {
-        title: 'Pickleball.com',
+        title: 'İstanbul Beykent Universty',
         description: (
             <ul className="list-disc">
                 <li>Developed a full-stack enterprise applications using React and Nextjs.</li>
