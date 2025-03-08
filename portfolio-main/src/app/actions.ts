@@ -1,9 +1,4 @@
-import { contactFormSchema, ContactFormSchemaType } from '@/components/page-ui/ContactMe';
-
-type ActionResponse =
-    | { success: true }
-    | {
-          success: false;
+import { contactFormSchema, ContactFormSchemaType } from '@/components/page-ui/ContactMe'; type ActionResponse = | { success: true } | { success: false;
           error: {
               message: string;
           };
