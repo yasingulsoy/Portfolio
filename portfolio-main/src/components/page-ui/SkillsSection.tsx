@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaJava, FaReact } from 'react-icons/fa';
-import { SiPostgresql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
+import { SiDotnet, SiMysql, SiPostgresql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 import { EvervaultCard, Icon } from '@/components/ui/evervault-card';
@@ -54,13 +54,13 @@ const skills = [
         icon: <FaJava />
     },
     {
-        title: 'Spring Boot',
-        link: 'https://spring.io/projects/spring-boot',
-        icon: <SiSpringboot />
+        title: '.Net',
+        link: 'https://dotnet.microsoft.com/',
+        icon: <SiDotnet />
     },
     {
-        title: 'PostgreSQL',
+        title: 'MySQL',
         link: 'https://www.postgresql.org',
-        icon: <SiPostgresql />
+        icon: <SiMysql />
     }
 ];

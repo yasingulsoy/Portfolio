@@ -18,8 +18,8 @@ const products = [
         thumbnail: '/projects/next-event.png'
     },
     {
-        title: 'Devspace',
-        link: 'https://github.com/spojskic/next-devspace-blog',
+        title: 'Koç Akademisi',
+        link: 'https://kocakademisi.com/',
         thumbnail: '/projects/devspace.png'
     },
 
