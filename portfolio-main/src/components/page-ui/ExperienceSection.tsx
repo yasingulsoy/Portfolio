@@ -27,57 +27,51 @@ export function ExperienceSection() {
 
 const experience = [
     {
-        title: 'İstanbul Beykent Universty',
+        title: 'Cloudyflex – Zoho',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React and Nextjs.</li>
-                <li>
-                    Lead the frontend development team, focusing on creating, improving, and fine-tuning web applications to make them fast and
-                    reliable. My job includes planning our technical approaches, guiding the team, and actively coding and reviewing code.
-                </li>
+                <li>Analyzed large datasets to support data-driven strategic decisions.</li>
+                <li>Designed and integrated ERP solutions tailored to client requirements.</li>
+                <li>Developed scalable web applications using ASP.NET Core MVC and C#.</li>
+                <li>Visualized data using Python, Excel, Zoho Analytics, and Power BI.</li>
             </ul>
         ),
-        badge: 'Jr.Software Engineer/Jan 2024 - Present'
+        badge: 'ERP Consultant, .NET Developer, Jr. Data Analyst / June 2024 – August 2024'
     },
     {
-        title: 'Cloudyflex-Zoho',
+        title: 'Beykent University – Student Dean’s Office',
         description: (
             <ul className="list-disc">
-                <li>
-                    Actively engaged in personal development, focusing on enhancing my soft skills and public speaking abilities under the guidance of
-                    experienced mentors.
-                </li>
-                <li>
-                    Transitioned into a mentorship role, where I guided high school students in developing their soft skills and provided guidance in
-                    career planning and decision-making.
-                </li>
-                <li>Volunteered in web development team creating fls.ba info website</li>
+                <li>Maintained and improved corporate websites by adding new screens and features.</li>
+                <li>Developed scalable web applications using C# and ASP.NET Core.</li>
+                <li>Built modern web projects integrating HTML5, CSS3, JS, and Razor syntax.</li>
+                <li>Prepared reports for registration, preferences, sales, and competitor analysis using data analytics.</li>
+                <li>Organized and monitored student club activities and official communications within the institution.</li>
             </ul>
         ),
-        badge: 'Junior -> Senior -> Alumni/Sep 2021 – Present'
+        badge: 'Web Master & Jr. Data Analyst / 2022 – Present'
     },
     {
-        title: 'Atlantbh',
+        title: 'Beykent University – Computer Engineering Club',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React, PostgreSQL and Docker.</li>
-                <li>Conducted code reviews, contributing to maintaining high standards of code quality and team collaboration.</li>
-                <li>Provided mentorship to two IT college students, enhancing their practical software engineering skills.</li>
+                <li>Led the club as president, organizing and planning technical and social events.</li>
+                <li>Coordinated industrial visits to enhance student exposure to real-world IT environments.</li>
+                <li>Initiated projects to promote innovation and increase the club’s visibility within the university.</li>
+                <li>Developed communication and social media strategies for effective event promotion.</li>
             </ul>
         ),
-        badge: 'Junior Software Engineer/Jun 2022 - Jan 2024'
+        badge: 'Club President / 2023 – Present'
     },
     {
-        title: 'Atlantbh (Intenship)',
+        title: 'Beykent University – Promotion and Public Relations',
         description: (
             <ul className="list-disc">
-                <li>Developed full-stack applications with React.js and Spring Boot.</li>
-                <li>
-                    Implemented essential software development practices such as GitHub for version control, Maven for project management, JUnit for
-                    testing, and applied design patterns and MVC architecture.
-                </li>
+                <li>Engaged with prospective students, providing detailed information about the institution.</li>
+                <li>Participated in education fairs, preparing and presenting promotional materials.</li>
+                <li>Monitored and optimized Google Ads campaigns to improve visibility and reach.</li>
             </ul>
         ),
-        badge: 'Full Stack Developer/Feb 2022 - May 2022'
+        badge: 'Field Representative / 2022 – 2024'
     }
 ];
