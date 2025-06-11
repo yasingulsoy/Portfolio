@@ -1,6 +1,7 @@
 'use client';
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, VercelLogoIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import React, { useState } from 'react';
+import { FaMedium, FaStackOverflow } from 'react-icons/fa';
 
 import { ModeToggle } from '@/components/page-ui/ModeToggle';
 import { HoveredLink, Menu, MenuItem } from '@/components/ui/navbar-menu';
@@ -37,11 +38,10 @@ function NavbarComponent({ className }: { className?: string }) {
                             <LinkedInLogoIcon className="mr-1" /> Linkedin
                         </HoveredLink>
                         <HoveredLink href="https://yasingulsoy.medium.com" rel="noopener noreferrer" target="_blank">
-                            <TwitterLogoIcon className="mr-1" />
-                            Medium
+                            <FaMedium className="mr-1" /> Medium
                         </HoveredLink>
                         <HoveredLink href="https://stackoverflow.com/users/20440247/yasin-gulsoy" rel="noopener noreferrer" target="_blank">
-                            <VercelLogoIcon className="mr-1" /> Stack Overflow
+                            <FaStackOverflow className="mr-1" /> Stack Overflow
                         </HoveredLink>
                     </div>
                 </MenuItem>
