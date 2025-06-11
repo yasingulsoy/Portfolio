@@ -1,5 +1,5 @@
 'use client';
-import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { animate, motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
 
 import { cn } from '@/lib/utils';
@@ -18,7 +18,7 @@ export const TracingBeam = ({ children, className }: { children: React.ReactNode
         if (contentRef.current) {
             setSvgHeight(contentRef.current.offsetHeight);
         }
-    }, []);
+    }, [animate]);
 
     const y1 = useSpring(useTransform(scrollYProgress, [0, 0.8], [50, svgHeight]), {
         stiffness: 500,
