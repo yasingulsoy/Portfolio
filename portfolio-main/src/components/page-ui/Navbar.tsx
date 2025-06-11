@@ -36,7 +36,7 @@ function NavbarComponent({ className }: { className?: string }) {
                         <HoveredLink href="https://www.linkedin.com/in/yasin-g%C3%BClsoy-b7874b22b/" rel="noopener noreferrer" target="_blank">
                             <LinkedInLogoIcon className="mr-1" /> Linkedin
                         </HoveredLink>
-                        <HoveredLink href="https://twitter.com/magicpojska" rel="noopener noreferrer" target="_blank">
+                        <HoveredLink href="https://yasingulsoy.medium.com" rel="noopener noreferrer" target="_blank">
                             <TwitterLogoIcon className="mr-1" />
                             Medium
                         </HoveredLink>
