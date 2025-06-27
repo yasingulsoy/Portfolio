@@ -9,12 +9,12 @@ export function ProjectsSection() {
 const products = [
     {
         title: 'Mern Memories',
-        link: 'https://github.com/spojskic/mern-memories',
+        link: 'https:',
         thumbnail: '/projects/mern-memories.png'
     },
     {
         title: 'Next Event',
-        link: 'https://github.com/spojskic/next-dj-events-frontend',
+        link: 'https://github.c-dj-events-frontend',
         thumbnail: '/projects/next-event.png'
     },
     {
@@ -25,12 +25,12 @@ const products = [
 
     {
         title: 'Google Clone',
-        link: 'https://github.com/MagicPojska/gulululgl-search-clone',
+        link: '',
         thumbnail: '/projects/google-clone.png'
     },
     {
         title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.ap/',
+        link: 'https://.netlify.ap/',
         thumbnail: '/projects/old-portfolio.png'
     },
     {
@@ -41,12 +41,12 @@ const products = [
 
     {
         title: 'Portfolio V2',
-        link: 'https://safetpojskic.com',
+        link: 'https://.com',
         thumbnail: '/projects/portfoliov2.png'
     },
     {
         title: 'Music App',
-        link: 'https://github.com/spojskic/my-music-app',
+        link: 'https://-app',
         thumbnail: '/projects/music-app.png'
     },
     {
