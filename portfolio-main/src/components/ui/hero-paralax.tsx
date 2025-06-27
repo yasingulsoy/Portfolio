@@ -5,13 +5,15 @@ import Link from 'next/link';
 import React from 'react';
 
 export const HeroParallax = ({
-    products
+    products,
+    title = 'Projects',
 }: {
     products: {
         title: string;
         link: string;
         thumbnail: string;
     }[];
+    title?: string;
 }) => {
     const firstRow = products.slice(0, 3);
     const secondRow = products.slice(3, 6);
@@ -32,11 +34,11 @@ export const HeroParallax = ({
     const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-700, 500]), springConfig);
     return (
         <div
-            id="projects"
+            id={title.toLowerCase()}
             ref={ref}
             className="relative flex h-[270vh]  flex-col self-auto overflow-hidden pb-10 pt-40 antialiased [perspective:1000px] [transform-style:preserve-3d]"
         >
-            <Header />
+            <Header title={title} />
             <motion.div
                 style={{
                     rotateX,
@@ -66,10 +68,10 @@ export const HeroParallax = ({
     );
 };
 
-export const Header = () => {
+export const Header = ({ title }: { title: string }) => {
     return (
         <div className="relative left-0 top-0 mx-auto w-full max-w-5xl px-4  py-20 md:py-40">
-            <h1 className="text-2xl font-bold dark:text-white md:text-7xl">Projects</h1>
+            <h1 className="text-2xl font-bold dark:text-white md:text-7xl">{title}</h1>
         </div>
     );
 };
